@@ -1,4 +1,4 @@
-module.exports = function mutableProxyFactory(defaultTarget) {
+export default function mutableProxyFactory(defaultTarget) {
   let mutableHandler;
   let mutableTarget;
 
